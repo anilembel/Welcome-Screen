@@ -1,0 +1,40 @@
+.zoom-out {
+    transform: scale(0.8); /* 80% of the original size */
+    transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
+}
+
+.language{
+    background-color: #2250C6 
+    
+}
+body{
+    background: white;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    font-size: 60px;
+    color: #2250C6;
+    text-align: center;
+    position: relative;
+}
+
+
+#carouselContainer{
+    margin: auto;
+    width: 80%;
+    overflow-x: scroll;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+    white-space: nowrap;
+  }
+
+.carouselItem {
+display: inline-block;
+}
+
