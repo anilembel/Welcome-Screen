@@ -42,7 +42,7 @@ async function navigate(page) {
         contentDiv.innerHTML = await loadHome();
         break;
       case 'languages':
-        body.setAttribute("class", "language")
+        body.setAttribute("class", "languagePage")
         contentDiv.innerHTML = loadLanguages();
         break;
       case 'learnMore':

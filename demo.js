@@ -10,6 +10,7 @@ async function loadDemo() {
         </iframe>`
       } 
       else if (currentDemoContent.attributes.type == "video"){
+        console.log(currentDemoContent.attributes)
         videoUrl = strapiUrl + currentDemoContent.attributes.video.data.attributes.url
         demoContainer = `<video src="${videoUrl}" controls autoplay></video>`
         

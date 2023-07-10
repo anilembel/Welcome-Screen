@@ -1,14 +1,42 @@
-.zoom-out {
-    transform: scale(0.8); /* 80% of the original size */
-    transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
-}
-
-.language{
-    background-color: #2250C6 
-    
-}
 body{
     background: white;
+}
+.languagePage{
+    background-color: #2250C6 
+}
+
+.languageButton{
+    border-radius: 90px;
+    border: 1px solid var(--skh, #18D2D2);
+    background-color: #2250C6;
+    width: 328.393px;
+    height: 94.548px;
+    flex-shrink: 0;
+}
+
+.languageFlag{
+    width: 61.913px;
+    height: 61.913px;
+    flex-shrink: 0;
+}
+
+.languageText{
+    color: var(--white, #FFF);
+    font-size: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#homeButtonDemo{
+    border-radius: 430px;
+    background: var(--fari-blue, #2250C6);
+    box-shadow: 0px 0px 15px 8px rgba(132, 247, 248, 0.25) inset;
+    width: 430px;
+    height: 430px;
+    left: 1215px;
+    top: 299px;
+    flex-shrink: 0;
 }
 
 h2{
@@ -38,3 +66,9 @@ h1{
 display: inline-block;
 }
 
+
+
+.zoom-out {
+    transform: scale(0.8); /* 80% of the original size */
+    transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
+}
