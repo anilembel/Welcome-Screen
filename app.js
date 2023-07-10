@@ -2,6 +2,8 @@ let language = 'en'; // Default to English
 let strapiUrl = "http://46.226.110.124:1337"
 let pageHistory = ['home']; // Start with the home page
 let demoPosition = parseInt(window.location.pathname.split("/")[1]);
+//if now demo id is supplied in the url then return to demo 3 (simplex)
+demoPosition = demoPosition ? demoPosition : 3;
 let demoContent;
 
 async function loadDemoFromStrapi(){
