@@ -5,28 +5,63 @@ body{
     background-color: #2250C6 
 }
 
-.languageButton{
+.languageHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* I put 300 px for the allignment */
+  }
+  
+  .languageHeader h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .languageButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 150px; /* İstediğiniz boşluk miktarını ayarlayın */
     border-radius: 90px;
     border: 1px solid var(--skh, #18D2D2);
     background-color: #2250C6;
     width: 328.393px;
     height: 94.548px;
     flex-shrink: 0;
-}
-
-.languageFlag{
+    cursor: pointer;
+  }
+  
+  .languageFlag {
     width: 61.913px;
     height: 61.913px;
+    margin-right: 5px;
     flex-shrink: 0;
-}
-
-.languageText{
+  }
+  
+  .languageText {
     color: var(--white, #FFF);
     font-size: 24px;
-    font-family: Poppins;
-    font-style: normal;
+    font-family: Plain;
     font-weight: 400;
-}
+    margin: 0;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 82px;
+    margin-left: 20px;
+  }
+  
+  /* İsteğe bağlı: Butonlara hover efekti eklemek için */
+  .languageButton:hover {
+    background-color: #1a40b1;
+  }
+  
 
 #homeButtonDemo{
     border-radius: 430px;
@@ -39,12 +74,6 @@ body{
     flex-shrink: 0;
 }
 
-h2{
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    position: relative;
-}
 
 h1{
     font-size: 60px;
