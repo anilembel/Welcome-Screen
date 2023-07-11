@@ -13,7 +13,8 @@ body{
   }
   
   .languageHeader h2 {
-    color: white;
+    font-family: 'Rhetorik Serif Trial', serif;
+    color: #FFFFFF;
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
@@ -25,17 +26,19 @@ body{
     display: inline-flex;
     align-items: center;
     justify-content: left;
-    margin-top: 200px;
+    padding-left: 12px;
+    margin-top: 150px;
     margin-right: 100px;
-    margin-left: 150px; /* İstediğiniz boşluk miktarını ayarlayın */
+    margin-left: 100px; /* I gave the margins for same wiew  */
     border-radius: 90px;
     border: 1px solid var(--skh, #18D2D2);
     background-color: #2250C6;
-    width: 328.393px;
+    width: 428.42px;
     height: 94.548px;
     flex-shrink: 0;
     cursor: pointer;
   }
+
   
   .languageFlag {
     width: 61.913px;
@@ -45,19 +48,21 @@ body{
   }
   
   .languageText {
+  
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
     color: var(--white, #FFF);
     font-size: 24px;
-    font-family: Plain;
+    font-family: 'PT Serif', serif;
     font-weight: 400;
     margin: 0;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
     width: 82px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   
-  /* İsteğe bağlı: Butonlara hover efekti eklemek için */
+  /* I made the hover */
   .languageButton:hover {
     background-color: #1a40b1;
   }
