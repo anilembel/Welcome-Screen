@@ -8,10 +8,12 @@ function loadLanguages() {
         <img src="assets/en.svg" class="languageFlag"></img>
         <p class="languageText">English</p>
       </button>
+      
       <button class="languageButton" onclick="setLanguage('nl'); navigate('home')">
         <img src="assets/nl.svg" class="languageFlag">
         <p class="languageText">Nederlands</p>
       </button>
+
       <button class="languageButton" onclick="setLanguage('fr-FR'); navigate('home')">
         <img src="assets/fr.svg" class="languageFlag"><p class="languageText">Français</p>
       </button>
