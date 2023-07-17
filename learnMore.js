@@ -2,17 +2,25 @@ async function loadLearnMore() {
   await loadDemoFromStrapi();
   const currentDemoContent = demoContent.data[demoPosition];
   return `
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body style="background-color: blue;">
     
-    <body style="background-color: #2250C6;">
-    <h1 class=learnmore-header">NRG Coin</h1>
-    <h2 class="learnmore-subheader">Climate and Energy</h2>
     <div class="learnmore-content">
+        <h1>NRG Coin</h1>
+        <h3>Climate and Energy</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non fermentum elit, vel dictum neque. Suspendisse potenti. Nam vitae mi nec sem aliquam luctus. Cras eget laoreet nisl. Sed aliquet facilisis risus, vel efficitur ligula pharetra in. In congue laoreet diam, id vestibulum mauris mattis ut. Nullam feugiat eleifend orci a viverra. Suspendisse eu eros ac purus suscipit lobortis. Fusce ac dolor id mauris iaculis tincidunt. Duis interdum arcu ac orci malesuada interdum. Ut congue orci et ligula congue, in elementum lacus congue. Suspendisse tincidunt facilisis feugiat. Donec finibus laoreet felis eu tincidunt. Vestibulum eu massa eget enim vulputate scelerisque.
-        </p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu ullamcorper magna. Pellentesque rutrum sem nisi, ac tincidunt lacus pellentesque eu. Etiam id tortor urna. Integer nisi dolor, vulputate vitae mi a, condimentum mattis erat. Proin ac nunc augue. Nunc efficitur lectus justo, vitae luctus mi viverra vel. 
+
+Vestibulum suscipit rhoncus libero nec tincidunt. Vestibulum ornare erat id enim elementum euismod. Sed sodales sem ante, vel rutrum ex tincidunt in. Aenean eleifend venenatis purus, a interdum dolor mollis eu. Nullam efficitur massa vel quam 
+
+egestas, convallis posuere turpis tincidunt. Nam neque mi, luctus et tellus quis, porta porta quam. Integer vitae facilisis odio.
     </div>
     <div class="learnmore-rectangle">
-        <!-- Resim buraya eklenebilir -->
+        
     </div>
     </body>
 
