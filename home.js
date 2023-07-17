@@ -41,7 +41,7 @@ async function loadHome() {
           <p class="research_l"> Research Lead : ${currentDemoContent.attributes["research_lead"]}</p>
         </div>
         <div id="imageList">
-          ${sdgImageElements} 
+          <p>HDG:</p>${sdgImageElements} 
         </div>
         <div class="button-learnMore">
           <button onclick="navigate('learnMore')">Learn More</button>

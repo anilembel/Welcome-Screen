@@ -160,8 +160,9 @@ body{
   text-align: left;
   color: rgb(179, 177, 177); 
   display: flex;
-  padding-right: 1000px;
+  margin-top: 0px;
   margin-bottom: 8px;
+  width: 300px;
 }
 
 .research_h{
@@ -171,9 +172,21 @@ body{
 }
 
 .research_l{
-  width: fit-content;
+  width: auto;
   height: auto;
  }
+
+ .imageList p {
+  font-family: Plain;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(179, 177, 177); 
+  display: flex;
+ }
+ 
 
 #carouselContainer{
     margin-left: 180px;
