@@ -37,18 +37,19 @@ async function loadHome() {
           <p>${currentDemoContent.attributes["explanation_short"]}</p>
         </div>
         <div class="home-instructions-research">
-          <p class="research_h"> Research Head : ${currentDemoContent.attributes["research_head"]}</p>
+          <p class="research_l"> Research Head : ${currentDemoContent.attributes["research_head"]}</p>
+          <div style="min-width: 10px"></div>
           <p class="research_l"> Research Lead : ${currentDemoContent.attributes["research_lead"]}</p>
         </div>
-        <div id="imageList">
-          <p>HDG:</p>${sdgImageElements} 
+        <div class="imageList">
+          <p>HDG:&nbsp;&nbsp;</p>${sdgImageElements} 
         </div>
-        <div class="button-learnMore">
-          <button onclick="navigate('learnMore')">Learn More</button>
-        </div>
+      <div>
+          <button onclick="navigate('learnMore')" class="button-learnMore">Learn More</button>
+      </div>
       </div>
       <div class="homeButtonDemoContainer">
-        <button id="homeButtonDemo" onclick="navigate('demo')">Start Demo</button>
+        <button id="homeButtonDemo" onclick="navigate('demo')">Start the Demo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</button>
       </div>
     </div>
     

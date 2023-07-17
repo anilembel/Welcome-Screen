@@ -80,17 +80,6 @@ body{
   
 
   /* Home Page's Styles Beginning */
-#homeButtonDemo{
-    border-radius: 430px;
-    background: var(--fari-blue, #2250C6);
-    box-shadow: 0px 0px 15px 8px rgba(132, 247, 248, 0.25) inset;
-    width: 430px;
-    height: 430px;
-    left: 1215px;
-    top: 299px;
-    flex-shrink: 0;
-    float: right;
-}
 
 .instructions-demobutton {
   display: flex;
@@ -149,6 +138,8 @@ body{
   color: #1A202C;
   width: 680px;
   margin-top: px;
+  margin-block-start: 2px;
+  margin-block-end: 8px;
 }
 
 .home-instructions-research {
@@ -165,29 +156,47 @@ body{
   width: 300px;
 }
 
-.research_h{
- margin-right: 30px;
- width: fit-content;
- height: auto;
-}
-
 .research_l{
   width: auto;
   height: auto;
+  min-width: 280px;
+  margin-block-start: 2px;
+  margin-block-end: 8px;
  }
 
- .imageList p {
-  font-family: Plain;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: rgb(179, 177, 177); 
-  display: flex;
+ .imageList{
+  display: inline-flex;
+  color: grey;
  }
+
+ .button-learnMore{
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 10px;
+  background-color:#2250C6 ;
+  color: white;
+  width: 163.64px;
+  height: 51.31px;
+  top: 715.59px;
+  left: 276.63pxs;
+  border: 1px;
+  border-radius: 58px;
+ }
+
+ #homeButtonDemo{
+  border-radius: 430px;
+  background: var(--fari-blue, #2250C6);
+  color: white;
+  font-size: 24px;
+  box-shadow: 0px 0px 15px 8px rgba(132, 247, 248, 0.25) inset;
+  width: 430px;
+  height: 430px;
+  left: 1215px;
+  top: 299px;
+  flex-shrink: 0;
+  float: right;
+}
  
-
 #carouselContainer{
     margin-left: 180px;
     scroll-behavior: smooth; /* Enable smooth scrolling */
