@@ -207,7 +207,31 @@ body{
   display: inline-block;
   width: 420px;
 }
+ /* Home Page's Styles finished */
 
+  /* Home Page's Styles finished */
+
+.-learnmore-header {
+    color: white;
+    text-align: left;
+}
+
+.learnmore-subheader {
+    color: #65C0B5;
+    text-align: left;
+}
+
+.learnmore-content {
+    color: white;
+    text-align: left;
+}
+
+.learnmore-rectangle {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    float: right;
+}
 
   .zoom-out {
     transform: scale(0.8); /* 80% of the original size */
