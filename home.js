@@ -24,11 +24,11 @@ async function loadHome() {
   </head>
 
   <body>
-
     <div class="page-header">
       <button onclick="navigate('previous')">Previous</button>
       <button onclick="navigate('languages')">Languages</button> 
     </div>
+    
     <div class="instructions-demobutton">
       <div class="home-instructions">
         <div class="home-instructions-info">
@@ -37,8 +37,8 @@ async function loadHome() {
           <p>${currentDemoContent.attributes["explanation_short"]}</p>
         </div>
         <div class="home-instructions-research">
-          <p class="home-instructions-research_h">${currentDemoContent.attributes["research_head"]}</p>
-          <p class="home-instructions-research_l">${currentDemoContent.attributes["research_lead"]}</p>
+          <p class="research_h"> Research Head : ${currentDemoContent.attributes["research_head"]}</p>
+          <p class="research_l"> Research Lead : ${currentDemoContent.attributes["research_lead"]}</p>
         </div>
         <div id="imageList">
           ${sdgImageElements} 
@@ -47,7 +47,7 @@ async function loadHome() {
           <button onclick="navigate('learnMore')">Learn More</button>
         </div>
       </div>
-      <div> 
+      <div class="homeButtonDemoContainer">
         <button id="homeButtonDemo" onclick="navigate('demo')">Start Demo</button>
       </div>
     </div>
@@ -55,8 +55,8 @@ async function loadHome() {
     <div id="carouselContainer">
       ${partnerLogoImageElements}
     </div>
-      
   </body>
+  
 
     `;
 }

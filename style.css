@@ -92,14 +92,26 @@ body{
     float: right;
 }
 
+.instructions-demobutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 .home-instructions{
   display: inline-block;
   align-items: flex-start;
-  margin-left: 100px;
+  
 }
 
 .home-instructions h1 {
-  margin-bottom: 3px;
+  margin-bottom: px;
   font-family: RhetorikSerif;
   font-size: 100px;
   font-weight: 400;
@@ -107,6 +119,8 @@ body{
   letter-spacing: 0em;
   text-align: left;
   color: #2250C6;
+  margin-bottom: 8px;
+  margin-top: 0px;
 }
 
 .home-instructions h2{
@@ -139,26 +153,34 @@ body{
   text-align: left;
   color: rgb(179, 177, 177); 
   display: flex;
-  margin-right: ;
   padding-right: 1000px;
+  margin-bottom: 8px;
 }
 
+.research_h{
+ margin-right: 30px;
+ width: fit-content;
+ height: auto;
+}
+
+.research_l{
+  width: fit-content;
+  height: auto;
+ }
+
 #carouselContainer{
-    margin: auto;
-    width: 80%;
-    overflow-x: scroll;
+    margin-left: 180px;
     scroll-behavior: smooth; /* Enable smooth scrolling */
     white-space: nowrap;
   }
 
 .carouselItem {
-display: inline-block;
+  display: inline-block;
+  width: 420px;
 }
 
 
-
-
-.zoom-out {
+  .zoom-out {
     transform: scale(0.8); /* 80% of the original size */
     transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
-}
+  }
