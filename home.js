@@ -29,26 +29,27 @@ async function loadHome() {
       <button onclick="navigate('previous')">Previous</button>
       <button onclick="navigate('languages')">Languages</button> 
     </div>
-
-    
-    <div class="home-instructions">
-      <h1>${currentDemoContent.attributes["title"]}</h1>
-      <h2>${currentDemoContent.attributes["topic"]}</h2>
-      <p>${currentDemoContent.attributes["explanation_short"]}</p>
-
-      <div class="home-instructions-research">
-      <p>${currentDemoContent.attributes["research_head"]}</p>
-      <p> ${currentDemoContent.attributes["research_lead"]}</p>
+    <div class="instructions-demobutton">
+      <div class="home-instructions">
+        <div class="home-instructions-info">
+          <h1>${currentDemoContent.attributes["title"]}</h1>
+          <h2>${currentDemoContent.attributes["topic"]}</h2>
+          <p>${currentDemoContent.attributes["explanation_short"]}</p>
+        </div>
+        <div class="home-instructions-research">
+          <p class="home-instructions-research_h">${currentDemoContent.attributes["research_head"]}</p>
+          <p class="home-instructions-research_l">${currentDemoContent.attributes["research_lead"]}</p>
+        </div>
+        <div id="imageList">
+          ${sdgImageElements} 
+        </div>
+        <div class="button-learnMore">
+          <button onclick="navigate('learnMore')">Learn More</button>
+        </div>
       </div>
-
-      <button onclick="navigate('learnMore')">Learn More</button> 
-
-      <div id="imageList">
-        ${sdgImageElements} 
+      <div> 
+        <button id="homeButtonDemo" onclick="navigate('demo')">Start Demo</button>
       </div>
-    </div>
-    <div>
-      <button id="homeButtonDemo" onclick="navigate('demo')">Start Demo</button> 
     </div>
     
     <div id="carouselContainer">

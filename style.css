@@ -89,58 +89,59 @@ body{
     left: 1215px;
     top: 299px;
     flex-shrink: 0;
+    float: right;
 }
 
 .home-instructions{
-  width: 100 px;
-  height: 200px;
   display: inline-block;
-  margin-right: 1200px;
+  align-items: flex-start;
   margin-left: 100px;
 }
 
-  .home-instructions h1 {
-    margin-bottom: 3px;
-    font-family: RhetorikSerif;
-    font-size: 100px;
-    font-weight: 400;
-    line-height: 120px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2250C6;
-  }
+.home-instructions h1 {
+  margin-bottom: 3px;
+  font-family: RhetorikSerif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2250C6;
+}
 
-  .home-instructions h2{
-    margin-top: 0;
-    font-family: Plain;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #65C0B5;
-  }
+.home-instructions h2{
+  margin-top: 0;
+  font-family: Plain;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #65C0B5;
+}
 
-  .home-instructions p {
-    font-family: Plain;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1A202C;
-  }
+.home-instructions-info p {
+  font-family: Plain;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1A202C;
+}
 
-  .home-instructions-research{
-    font-family: Plain;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: grey;
-  }
- 
+.home-instructions-research {
+  font-family: Plain;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(179, 177, 177); 
+  display: flex;
+  margin-right: ;
+  padding-right: 1000px;
+}
 
 #carouselContainer{
     margin: auto;
@@ -153,6 +154,7 @@ body{
 .carouselItem {
 display: inline-block;
 }
+
 
 
 
