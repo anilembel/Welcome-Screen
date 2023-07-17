@@ -97,7 +97,8 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  align-self: center;
+  height:80vh;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 0px;
@@ -107,7 +108,8 @@ body{
 .home-instructions{
   display: inline-block;
   align-items: flex-start;
-  
+  margin-right: 180px;
+  width: 680px;
 }
 
 .home-instructions h1 {
@@ -125,6 +127,7 @@ body{
 
 .home-instructions h2{
   margin-top: 0;
+  margin-bottom: 0px;
   font-family: Plain;
   font-size: 16px;
   font-weight: 600;
@@ -132,6 +135,8 @@ body{
   letter-spacing: 0em;
   text-align: left;
   color: #65C0B5;
+  padding-bottom: 0px;
+
 }
 
 .home-instructions-info p {
@@ -142,6 +147,8 @@ body{
   letter-spacing: 0em;
   text-align: left;
   color: #1A202C;
+  width: 680px;
+  margin-top: px;
 }
 
 .home-instructions-research {
