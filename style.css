@@ -79,7 +79,7 @@ body {
 /* Home Page's Styles Beginning */
 
 .page-header-languages {
-  font-size: 12px;
+  font-size: 14px;
   background-color: transparent;
   color: #2f4fbb;
   width: 114.624px;
@@ -90,6 +90,9 @@ body {
   position: absolute;
   top: 40px;
   left: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .instructions-demobutton {
