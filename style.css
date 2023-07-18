@@ -50,15 +50,12 @@ body{
     cursor: pointer;
   }
 
-  
   .languageFlag {
     width: 61.913px;
     height: 61.913px;
     margin-right: 5px;
     flex-shrink: 0;
   }
-  
-
 
   .languageText {
     color: var(--white, #FFF);
@@ -80,6 +77,25 @@ body{
   
 
   /* Home Page's Styles Beginning */
+.page-header-exit {
+    font-size: 36px;
+    
+    background-color: transparent;
+    color: #fefefe;
+    width: 42.61px;
+    height: 42.61px;
+    position: absolute;
+    top: 40px;
+    left: 1800px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
 
 .page-header-languages {
     font-size: 12px;
@@ -92,6 +108,7 @@ body{
     left: 1736.72px;
     border: 1px solid #2F4FBB;
     border-radius: 72px;
+    cursor: pointer;
   }
   
 .instructions-demobutton {
