@@ -71,7 +71,7 @@ body{
     text-align: left;
     width: 82px;
     margin-left: 30px;
-  }
+    }
   
   /* I made the hover */
   .languageButton:hover {
@@ -169,6 +169,8 @@ body{
   color: grey;
  }
 
+ 
+
  .button-learnMore{
   padding-left: 0px;
   margin-left: 0px;
@@ -198,37 +200,43 @@ body{
 }
  
 #carouselContainer{
-    margin-left: 180px;
-    scroll-behavior: smooth; /* Enable smooth scrolling */
-    white-space: nowrap;
-  }
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+  white-space: nowrap;
+  opacity: 0.3;
+  background-color: gray;
+}
+
 
 .carouselItem {
+  margin-left: 10px;
   display: inline-block;
-  width: 420px;
+  width: 580px;
 }
  /* Home Page's Styles finished */
 
   /* Learn More Page's Styles finished */
 
-.learnmore-body body {
-    background-color: #2250C6;
-  }
   
 
 .learnmore-content {
-    color: rgb(0, 0, 0);
     text-align: left;
     display: inline-block;
     margin-top: 10px;
     margin-left: 80px;
 }
 .learnmore-content h1{
-  color: rgb(3, 0, 0);
+  font-family: Rhetorik Serif Trial;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(251, 251, 251);
   width: 447.3167724609375px;
   height: 48px;
   top: 31.816162109375px;
   left: 72.54931640625px;
+  margin-bottom: 0px;
 
 }
 
@@ -238,12 +246,14 @@ body{
   height: 21px;
   top: 87.92306518554688px;
   left: 74.978759765625px;
+  margin-bottom: 0px;
+  margin-top: 2px;
 
  }
 
  .learnmore-content p{
+  color: #FFF;
   width: 529.7550048828125px;
-  height: 312px;
   top: 144.92306518554688px;
   left: 73.05029296875px;
   font-family: Poppins;
@@ -253,7 +263,8 @@ body{
   letter-spacing: 0em;
   text-align: left;
   display: flex;
-
+  margin-block-start: 25px;
+  margin-block-end: 0px;
  }
 
 .learnmore-rectangle {
@@ -261,7 +272,7 @@ body{
     margin-right: 30px;
     width: 1135px;
     height: 647.63px;
-    background-color: black;
+    background-color: rgb(202, 200, 200);
     width: 1135px;
     top: 148.92306518554688px;
     left: 745px;

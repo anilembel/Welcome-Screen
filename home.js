@@ -5,7 +5,7 @@ async function loadHome() {
     (a) => strapiUrl + a.attributes.url
   );
   const sdgImageElements = sdgUrlList
-    .map((url) => `<img src="${url}" height=40px alt="SDG Image">`)
+    .map((url) => `<img src="${url}" height=40px alt="SDG Image" style="margin-right:20px;" >`)
     .join("");
   const partnerLogoUrlList = currentDemoContent.attributes.caroussel.data.map(
     (a) => strapiUrl + a.attributes.url
@@ -42,7 +42,7 @@ async function loadHome() {
           <p class="research_l"> Research Lead : ${currentDemoContent.attributes["research_lead"]}</p>
         </div>
         <div class="imageList">
-          <p>HDG:&nbsp;&nbsp;</p>${sdgImageElements} 
+          <p>HDG:&nbsp;&nbsp;</p>${sdgImageElements}
         </div>
       <div>
           <button onclick="navigate('learnMore')" class="button-learnMore">Learn More</button>
