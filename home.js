@@ -28,9 +28,9 @@ async function loadHome() {
 
   <body>
     <div class="page-header">
-      <button onclick="navigate('previous')">Previous</button>
-      <button onclick="navigate('languages')">Languages</button> 
+      <button class="page-header-languages" onclick="navigate('languages')">EN&nbsp;&nbsp;&nbsp;&nbsp;&#127758;</button> 
     </div>
+    
     
     <div class="instructions-demobutton">
       <div class="home-instructions">
@@ -61,6 +61,5 @@ async function loadHome() {
     </div>
   </body>
   
-
     `;
 }

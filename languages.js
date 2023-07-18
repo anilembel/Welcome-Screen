@@ -19,4 +19,3 @@ function loadLanguages() {
       </button>
       `;
 }
-s;
