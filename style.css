@@ -369,6 +369,9 @@ body {
   margin-right: 0px;
 }
 
+.demoContainer {
+  width: 1400px;
+}
 .zoom-out {
   transform: scale(0.8); /* 80% of the original size */
   transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */

@@ -46,8 +46,11 @@ async function loadDemo() {
     </div>
 
   
+    <body>
+      <div id="demoContainer"> 
+        ${demoContainer} 
+        </div>
+    </body>
 
-    <div id="demoContainer"> 
-    ${demoContainer} 
-    </div>`;
+    `;
 }
