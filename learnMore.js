@@ -26,7 +26,7 @@ async function loadLearnMore() {
     </body>
 
     <div class="page-header">
-        <button class="page-header-exit" onclick="navigate(\'previous\')"> ｘ </button>        
+        <button class="page-header-exit-button" onclick="navigate(\'previous\')"> X </button>        
     </div>
      <!-- <h1>${currentDemoContent.attributes["learn_more"]}</h1>
      <p>${currentDemoContent.attributes["explanation"]}</p>  -->

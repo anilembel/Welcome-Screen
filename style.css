@@ -1,128 +1,109 @@
-body{
-    background: white;
-}
+/* Generral */
 
-/* Language Page's Styles Beginning */
+body {
+  background: white;
+}
 
 @font-face {
   font-family: "Plain";
   src: url(../Welcome-Screen/assets/fonts/Plain-Regular.otf);
 
   font-family: RhetorikSerif;
-  src: url(../Welcome-Screen/assets/fonts/RhetorikSerifTrial-Regular.ttf); 
+  src: url(../Welcome-Screen/assets/fonts/RhetorikSerifTrial-Regular.ttf);
 }
 
-.languagePage{
-    background-color: #2250C6 
+/* Language Page's Styles Beginning */
+.languagePage {
+  background-color: #2250c6;
 }
 
 .languageHeader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px; /* I put 300 px for the allignment */
-  }
-  
-  .languageHeader h2 {
-    font-family: RhetorikSerif, serif;
-    color: #FFFFFF;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .languageButton {
-    display: inline-flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 12px;
-    margin-top: 150px;
-    margin-right: 100px;
-    margin-left: 100px; /* I gave the margins&Paddings for same wiew because I could not find the pattern  */
-    border-radius: 90px;
-    border: 1px solid var(--skh, #18D2D2);
-    background-color: #2250C6;
-    width: 428.42px;
-    height: 94.548px;
-    flex-shrink: 0;
-    cursor: pointer;
-  }
-
-  .languageFlag {
-    width: 61.913px;
-    height: 61.913px;
-    margin-right: 5px;
-    flex-shrink: 0;
-  }
-
-  .languageText {
-    color: var(--white, #FFF);
-    font-size: 24px;
-    font-family: Plain;
-    font-weight: 400;
-    margin: 0;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 82px;
-    margin-left: 30px;
-    }
-  
-  /* I made the hover */
-  .languageButton:hover {
-    background-color: #1a40b1;
-  }
-  
-
-  /* Home Page's Styles Beginning */
-.page-header-exit {
-    font-size: 36px;
-    
-    background-color: transparent;
-    color: #fefefe;
-    width: 42.61px;
-    height: 42.61px;
-    position: absolute;
-    top: 40px;
-    left: 1800px;
-    border: 1px solid #ffffff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    padding-left: 2px;
-    padding-bottom: 8px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px; /* I put 300 px for the allignment */
 }
 
+.languageHeader h2 {
+  font-family: RhetorikSerif, serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+.languageButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 12px;
+  margin-top: 150px;
+  margin-right: 100px;
+  margin-left: 100px; /* I gave the margins&Paddings for same wiew because I could not find the pattern  */
+  border-radius: 90px;
+  border: 1px solid var(--skh, #18d2d2);
+  background-color: #2250c6;
+  width: 428.42px;
+  height: 94.548px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.languageFlag {
+  width: 61.913px;
+  height: 61.913px;
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+
+.languageText {
+  color: var(--white, #fff);
+  font-size: 24px;
+  font-family: Plain;
+  font-weight: 400;
+  margin: 0;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 82px;
+  margin-left: 30px;
+}
+
+/* I made the hover */
+.languageButton:hover {
+  background-color: #1a40b1;
+}
+
+/* Home Page's Styles Beginning */
 
 .page-header-languages {
-    font-size: 12px;
-    background-color: transparent;
-    color: #2F4FBB;
-    width: 114.624px;
-    height: 41.888px;
-    position: absolute;
-    top: 40px;
-    left: 1736.72px;
-    border: 1px solid #2F4FBB;
-    border-radius: 72px;
-    cursor: pointer;
-  }
-  
+  font-size: 12px;
+  background-color: transparent;
+  color: #2f4fbb;
+  width: 114.624px;
+  height: 41.888px;
+  border: 1px solid #2f4fbb;
+  border-radius: 72px;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  left: 1700px;
+}
+
 .instructions-demobutton {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   align-self: center;
-  height:80vh;
+  height: 80vh;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-.home-instructions{
+.home-instructions {
   display: inline-block;
   align-items: flex-start;
   margin-right: 360px;
@@ -137,12 +118,12 @@ body{
   line-height: 120px;
   letter-spacing: 0em;
   text-align: left;
-  color: #2250C6;
+  color: #2250c6;
   margin-bottom: 8px;
   margin-top: 0px;
 }
 
-.home-instructions h2{
+.home-instructions h2 {
   margin-top: 0;
   margin-bottom: 0px;
   font-family: Plain;
@@ -151,9 +132,8 @@ body{
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: #65C0B5;
+  color: #65c0b5;
   padding-bottom: 0px;
-
 }
 
 .home-instructions-info p {
@@ -163,7 +143,7 @@ body{
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
-  color: #1A202C;
+  color: #1a202c;
   width: 680px;
   margin-top: px;
   margin-block-start: 2px;
@@ -177,32 +157,31 @@ body{
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: rgb(179, 177, 177); 
+  color: rgb(179, 177, 177);
   display: flex;
   margin-top: 0px;
   margin-bottom: 8px;
   width: 300px;
 }
 
-.research_l{
+.research_l {
   width: auto;
   height: auto;
   min-width: 280px;
   margin-block-start: 2px;
   margin-block-end: 8px;
- }
+}
 
- .imageList{
+.imageList {
   display: inline-flex;
   color: grey;
- }
+}
 
- 
- .button-learnMore{
+.button-learnMore {
   padding-left: 0px;
   margin-left: 0px;
   margin-top: 10px;
-  background-color:#2250C6 ;
+  background-color: #2250c6;
   color: white;
   width: 163.64px;
   height: 51.31px;
@@ -210,42 +189,61 @@ body{
   left: 276.63pxs;
   border: 1px;
   border-radius: 58px;
- }
+}
 
- #homeButtonDemo{
-  border: #1A202C;
+#homeButtonDemo {
+  border: #1a202c;
   border-radius: 430px;
-  background: var(--fari-blue, #2250C6);
+  background: var(--fari-blue, #2250c6);
   color: white;
   font-size: 24px;
   box-shadow: 0px 0px 15px 8px rgba(132, 247, 248, 0.25) inset;
   width: 300px;
   height: 300px;
 }
- 
-#carouselContainer{
+
+#carouselContainer {
   scroll-behavior: smooth; /* Enable smooth scrolling */
   white-space: nowrap;
   opacity: 0.3;
   background-color: gray;
 }
 
-
 .carouselItem {
   margin-left: 10px;
   display: inline-block;
   width: 580px;
 }
- /* Home Page's Styles finished */
+/* Home Page's Styles finished */
 
-  /* Learn More Page's Styles started */
-.learnmore-content {
-    text-align: left;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 80px;
+/* Learn More Page's Styles started */
+
+.page-header-exit-button {
+  font-size: 30px;
+  background-color: transparent;
+  color: #fefefe;
+  width: 42.61px;
+  height: 42.61px;
+  position: absolute;
+  top: 40px;
+  left: 1800px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+  cursor: pointer;
 }
-.learnmore-content h1{
+
+.learnmore-content {
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.learnmore-content h1 {
   font-family: Rhetorik Serif Trial;
   font-size: 40px;
   font-weight: 400;
@@ -258,22 +256,20 @@ body{
   top: 31.816162109375px;
   left: 72.54931640625px;
   margin-bottom: 0px;
-
 }
 
-.learnmore-content h3{
-  color: #65C0B5;
+.learnmore-content h3 {
+  color: #65c0b5;
   width: 444.8874206542969px;
   height: 21px;
   top: 87.92306518554688px;
   left: 74.978759765625px;
   margin-bottom: 0px;
   margin-top: 2px;
+}
 
- }
-
- .learnmore-content p{
-  color: #FFF;
+.learnmore-content p {
+  color: #fff;
   width: 529.7550048828125px;
   top: 144.92306518554688px;
   left: 73.05029296875px;
@@ -286,21 +282,91 @@ body{
   display: flex;
   margin-block-start: 25px;
   margin-block-end: 0px;
- }
-
-.learnmore-rectangle {
-    margin-top: 150px;
-    margin-right: 30px;
-    width: 1135px;
-    height: 647.63px;
-    background-color: rgb(202, 200, 200);
-    width: 1135px;
-    top: 148.92306518554688px;
-    left: 745px;
-    float: right;
 }
 
-  .zoom-out {
-    transform: scale(0.8); /* 80% of the original size */
-    transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
-  }
+.learnmore-rectangle {
+  margin-top: 150px;
+  margin-right: 30px;
+  width: 1135px;
+  height: 647.63px;
+  background-color: rgb(202, 200, 200);
+  width: 1135px;
+  top: 148.92306518554688px;
+  left: 745px;
+  float: right;
+}
+
+/* Demo Page Start  */
+.page-header-demo {
+  display: flex;
+  width: 1839.87841796875px;
+  height: 52.36003112792969px;
+  top: 38.745361328125px;
+  left: 38.73681640625px;
+  align-items: center;
+}
+.page-header-demo i {
+  font-style: normal;
+}
+.demo-previous-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: transparent;
+  color: #2f4fbb;
+  width: 114.624px;
+  height: 31.888px;
+  border: 1px solid #2f4fbb;
+  border-radius: 72px;
+  cursor: pointer;
+  margin-right: 1000px;
+}
+
+.demo-home-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: transparent;
+  color: #2f4fbb;
+  width: 94.624px;
+  height: 31.888px;
+  border: 1px solid #2f4fbb;
+  border-radius: 72px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.demo-languages-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: transparent;
+  color: #2f4fbb;
+  width: 94.624px;
+  height: 31.888px;
+  border: 1px solid #2f4fbb;
+  border-radius: 72px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.demo-learnmore-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #2f4fbb;
+  width: 134.624px;
+  height: 31.888px;
+  border: 1px solid #2f4fbb;
+  border-radius: 72px;
+  cursor: pointer;
+  margin-right: 0px;
+}
+
+.zoom-out {
+  transform: scale(0.8); /* 80% of the original size */
+  transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
+}

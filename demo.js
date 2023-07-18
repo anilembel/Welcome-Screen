@@ -18,12 +18,35 @@ async function loadDemo() {
   }
   console.log(currentDemoContent.attributes.type);
   return `
-    <div class="page-header">
-        <button onclick="navigate(\'previous\')">Previous</button>
-        <button onclick="navigate(\'home\')">Home</button> 
-        <button onclick="navigate(\'learnMore\')">Learn More</button> 
-        <button onclick="navigate(\'languages\')">Languages</button> 
+
+    <div class="page-header-demo">
+
+        <button class="demo-previous-button" onclick="navigate('previous')">
+          <i class="ph ph-arrow-left" style="font-size: 24px"></i>
+          <i class="demo-button-text">&nbsp;&nbsp; Previous</i>
+        </button>
+
+        <button class="demo-home-button" onclick="navigate(\'home\')">
+          <i class="ph ph-house" style="font-size: 24px"></i>
+          <i class="demo-button-text">&nbsp;&nbsp; Home</i>
+        </button> 
+
+        <button class="demo-languages-button" onclick="navigate(\'languages\')">
+          <i class="ph-light ph-globe" style="font-size: 24px"></i>
+          <i class="demo-button-text">&nbsp;&nbsp; EN</i>
+        </button> 
+
+
+        <button class="demo-learnmore-button" class="button-learnMore" onclick="navigate(\'learnMore\')">
+          <i class="ph ph-question" style="font-size: 24px"></i>
+          <i class="demo-button-text">&nbsp;&nbsp; Learn More</i>
+        </button> 
+
+        
     </div>
+
+  
+
     <div id="demoContainer"> 
     ${demoContainer} 
     </div>`;
