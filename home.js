@@ -5,7 +5,10 @@ async function loadHome() {
     (a) => strapiUrl + a.attributes.url
   );
   const sdgImageElements = sdgUrlList
-    .map((url) => `<img src="${url}" height=40px alt="SDG Image" style="margin-right:20px;" >`)
+    .map(
+      (url) =>
+        `<img src="${url}" height=40px alt="SDG Image" style="margin-right:20px;" >`
+    )
     .join("");
   const partnerLogoUrlList = currentDemoContent.attributes.caroussel.data.map(
     (a) => strapiUrl + a.attributes.url
