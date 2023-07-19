@@ -42,14 +42,15 @@ async function loadHome() {
           <h2>${currentDemoContent.attributes["topic"]}</h2>
           <p>${currentDemoContent.attributes["explanation_short"]}</p>
         </div>
+
         <div class="home-instructions-research">
-          <p class="research_l"> Research Head : ${currentDemoContent.attributes["research_head"]}</p>
-          <div style="min-width: 10px"></div>
-          <p class="research_l"> Research Lead : ${currentDemoContent.attributes["research_lead"]}</p>
+          <p class="research_l"> <em>Research Head :</em> ${currentDemoContent.attributes["research_head"]}</p>
+          <p class="research_l"> <em>Research Lead :</em> ${currentDemoContent.attributes["research_lead"]}</p>
         </div>
         <div class="imageList">
           <p>HDG:&nbsp;&nbsp;</p>${sdgImageElements}
         </div>
+
       <div>
           <button onclick="navigate('learnMore')" class="button-learnMore">Learn More</button>
       </div>
