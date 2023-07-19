@@ -19,6 +19,7 @@ async function loadDemo() {
   console.log(currentDemoContent.attributes.type);
   return `
 
+    
     <div class="page-header-demo">
 
         <button class="demo-previous-button" onclick="navigate('previous')">
@@ -46,11 +47,11 @@ async function loadDemo() {
     </div>
 
   
-    <body>
+    
       <div id="demoContainer"> 
         ${demoContainer} 
         </div>
-    </body>
+    
 
     `;
 }

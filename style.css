@@ -301,6 +301,7 @@ body {
 }
 
 /* Demo Page Start  */
+
 .page-header-demo {
   display: flex;
   width: 1839.87841796875px;
@@ -308,10 +309,13 @@ body {
   top: 38.745361328125px;
   left: 38.73681640625px;
   align-items: center;
+  margin-bottom: 10px; /* Add a margin-bottom of 10px */
 }
+
 .page-header-demo i {
   font-style: normal;
 }
+
 .demo-previous-button {
   display: flex;
   justify-content: center;
@@ -319,47 +323,21 @@ body {
   font-size: 14px;
   background-color: transparent;
   color: #2f4fbb;
-  width: 114.624px;
+  width: 134.624px;
   height: 31.888px;
   border: 1px solid #2f4fbb;
   border-radius: 72px;
   cursor: pointer;
-  margin-right: 1000px;
+  margin-right: 1200px; /* Düğmeler arasındaki boşluğu ayarla */
 }
 
-.demo-home-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  background-color: transparent;
-  color: #2f4fbb;
-  width: 94.624px;
-  height: 31.888px;
-  border: 1px solid #2f4fbb;
-  border-radius: 72px;
-  cursor: pointer;
-  margin-right: 50px;
-}
-
-.demo-languages-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  background-color: transparent;
-  color: #2f4fbb;
-  width: 94.624px;
-  height: 31.888px;
-  border: 1px solid #2f4fbb;
-  border-radius: 72px;
-  cursor: pointer;
-  margin-right: 50px;
-}
+.demo-home-button,
+.demo-languages-button,
 .demo-learnmore-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
   background-color: transparent;
   color: #2f4fbb;
   width: 134.624px;
@@ -367,12 +345,16 @@ body {
   border: 1px solid #2f4fbb;
   border-radius: 72px;
   cursor: pointer;
-  margin-right: 0px;
+  margin-right: 40px; /* Düğmeler arasındaki boşluğu ayarla */
 }
 
 .demoContainer {
-  width: 1400px;
+  width: 100%; /* Change width to 100% to ensure it takes the full width of the container */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
 }
+
 .zoom-out {
   transform: scale(0.8); /* 80% of the original size */
   transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
