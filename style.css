@@ -221,21 +221,15 @@ body {
 /* Home Page's Styles finished */
 
 /* Learn More Page's Styles started */
-
 .page-header-exit-button {
-  font-size: 30px;
+  font-size: 50px;
   background-color: transparent;
   color: #fefefe;
-  width: 42.61px;
-  height: 42.61px;
   position: absolute;
   top: 40px;
   left: 1800px;
-  border: 1px solid #ffffff;
-  border-radius: 50%;
+  border: none;
   display: flex;
-  align-items: center;
-  padding-left: 10px;
 
   cursor: pointer;
 }
