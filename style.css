@@ -7,12 +7,12 @@ body {
 
 @font-face {
   font-family: "Plain";
-  src: url(../Welcome-Screen/assets/fonts/Plain-Regular.otf);
+  src: url(./assets/fonts/Plain-Regular.otf);
 }
 
 @font-face {
   font-family: "RhetorikSerif";
-  src: url(../Welcome-Screen/assets/fonts/RhetorikSerifTrial-Regular.ttf);
+  src: url(./assets/fonts/RhetorikSerifTrial-Regular.ttf);
 }
 
 /* Language Page Start */
