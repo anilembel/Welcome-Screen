@@ -335,21 +335,12 @@ body {
   border-radius: 72px;
   cursor: pointer;
   margin-left: 40px;
+  margin-right: 0px;
 }
 
 .demo-previous-button {
-  margin-right: 1080px;
+  margin-left: 40px;
+  margin-right: 1120px;
 }
 
-.demoContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 /* Demo Page End */
-
-.zoom-out {
-  transform: scale(0.8);
-  transform-origin: 0 0;
-}
