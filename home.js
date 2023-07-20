@@ -28,7 +28,7 @@ async function loadHome() {
 
   <body>
     <div class="page-header">
-      <button class="page-header-languages" onclick="navigate(\'languages\')">
+      <button class="page-header-languagesbutton" onclick="navigate(\'languages\')">
         <i class="demo-button-text" style="font-style: normal;"> EN&nbsp;&nbsp;</i>
         <i class="ph-light ph-globe" style="font-size: 24px"></i>
       </button>

@@ -1,4 +1,4 @@
-/* Generral */
+/* General */
 
 body {
   background: white;
@@ -7,12 +7,14 @@ body {
 @font-face {
   font-family: "Plain";
   src: url(../Welcome-Screen/assets/fonts/Plain-Regular.otf);
+}
 
-  font-family: RhetorikSerif;
+@font-face {
+  font-family: "RhetorikSerif";
   src: url(../Welcome-Screen/assets/fonts/RhetorikSerifTrial-Regular.ttf);
 }
 
-/* Language Page's Styles Beginning */
+/* Language Page Start */
 .languagePage {
   background-color: #2250c6;
 }
@@ -21,11 +23,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px; /* I put 300 px for the allignment */
+  height: 300px;
 }
 
 .languageHeader h2 {
-  font-family: RhetorikSerif, serif;
+  font-family: "RhetorikSerif", serif;
   color: #ffffff;
   font-size: 40px;
   font-weight: 400;
@@ -41,9 +43,9 @@ body {
   padding-left: 12px;
   margin-top: 150px;
   margin-right: 100px;
-  margin-left: 100px; /* I gave the margins&Paddings for same wiew because I could not find the pattern  */
+  margin-left: 100px;
   border-radius: 90px;
-  border: 1px solid var(--skh, #18d2d2);
+  border: 1px solid #18d2d2;
   background-color: #2250c6;
   width: 428.42px;
   height: 94.548px;
@@ -59,9 +61,9 @@ body {
 }
 
 .languageText {
-  color: var(--white, #fff);
+  color: #fff;
   font-size: 24px;
-  font-family: Plain;
+  font-family: "Plain";
   font-weight: 400;
   margin: 0;
   line-height: 32px;
@@ -71,14 +73,13 @@ body {
   margin-left: 30px;
 }
 
-/* I made the hover */
 .languageButton:hover {
   background-color: #1a40b1;
 }
+/* Language Page End */
 
-/* Home Page's Styles Beginning */
-
-.page-header-languages {
+/* Home Page Start */
+.page-header-languagesbutton {
   font-size: 14px;
   background-color: transparent;
   color: #2f4fbb;
@@ -116,7 +117,7 @@ body {
 .home-instructions h1 {
   width: 1080px;
   display: inline-block;
-  font-family: RhetorikSerif;
+  font-family: "RhetorikSerif";
   font-size: 70px;
   font-weight: 400;
   text-align: left;
@@ -130,7 +131,7 @@ body {
   margin-bottom: 0px;
   padding-bottom: 8px;
   padding-top: 8px;
-  font-family: Plain;
+  font-family: "Plain";
   font-size: 20px;
   font-weight: 600;
   line-height: 21px;
@@ -140,7 +141,7 @@ body {
 }
 
 .home-instructions-info p {
-  font-family: Plain;
+  font-family: "Plain";
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
@@ -154,7 +155,7 @@ body {
 
 .home-instructions-research {
   display: inline-block;
-  font-family: Plain;
+  font-family: "Plain";
   font-size: 16px;
   font-weight: 400;
   line-height: 21px;
@@ -175,7 +176,7 @@ body {
 
 .research_l em {
   font-style: normal;
-  color: rgb(179, 177, 177); /* "Research Lead" metni gri renkte */
+  color: #b3b1b1;
 }
 
 .imageList {
@@ -192,7 +193,7 @@ body {
   width: 163.64px;
   height: 51.31px;
   top: 715.59px;
-  left: 276.63pxs;
+  left: 276.63px;
   border: 1px;
   border-radius: 58px;
 }
@@ -221,14 +222,14 @@ body {
   justify-content: center;
   margin: 0 auto;
   position: fixed;
-  bottom: 40px; /* Adjust the value to control the vertical position from the bottom */
+  bottom: 40px;
   left: 0;
   right: 0;
 }
 
-/* Home Page's Styles finished */
+/* Home Page End */
 
-/* Learn More Page's Styles started */
+/* Learn More Page Start */
 .page-header-exit-button {
   font-size: 50px;
   background-color: transparent;
@@ -238,7 +239,6 @@ body {
   left: 1800px;
   border: none;
   display: flex;
-
   cursor: pointer;
 }
 
@@ -250,13 +250,13 @@ body {
 }
 
 .learnmore-content h1 {
-  font-family: Rhetorik Serif Trial;
+  font-family: "RhetorikSerif";
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
-  color: rgb(251, 251, 251);
+  color: #fbfbfb;
   width: 447.3167724609375px;
   height: 48px;
   top: 31.816162109375px;
@@ -279,7 +279,7 @@ body {
   width: 529.7550048828125px;
   top: 144.92306518554688px;
   left: 73.05029296875px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -295,15 +295,15 @@ body {
   margin-right: 30px;
   width: 1135px;
   height: 647.63px;
-  background-color: rgb(202, 200, 200);
+  background-color: #cac8c8;
   width: 1135px;
   top: 148.92306518554688px;
   left: 745px;
   float: right;
 }
+/* Learn More Page End */
 
-/* Demo Page Start  */
-
+/* DEMO Page Start */
 .page-header-demo {
   display: flex;
   width: 1839.87841796875px;
@@ -311,28 +311,14 @@ body {
   top: 38.745361328125px;
   left: 38.73681640625px;
   align-items: center;
-  margin-bottom: 10px; /* Add a margin-bottom of 10px */
+  margin-bottom: 10px;
 }
 
 .page-header-demo i {
   font-style: normal;
 }
 
-.demo-previous-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  background-color: transparent;
-  color: #2f4fbb;
-  width: 134.624px;
-  height: 31.888px;
-  border: 1px solid #2f4fbb;
-  border-radius: 72px;
-  cursor: pointer;
-  margin-right: 1200px; /* Düğmeler arasındaki boşluğu ayarla */
-}
-
+.demo-previous-button,
 .demo-home-button,
 .demo-languages-button,
 .demo-learnmore-button {
@@ -347,17 +333,22 @@ body {
   border: 1px solid #2f4fbb;
   border-radius: 72px;
   cursor: pointer;
-  margin-right: 40px; /* Düğmeler arasındaki boşluğu ayarla */
+  margin-left: 40px;
+}
+
+.demo-previous-button {
+  margin-right: 1080px;
 }
 
 .demoContainer {
-  width: 100%; /* Change width to 100% to ensure it takes the full width of the container */
+  width: 100%;
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+  justify-content: center;
+  align-items: center;
 }
+/* Demo Page End */
 
 .zoom-out {
-  transform: scale(0.8); /* 80% of the original size */
-  transform-origin: 0 0; /* Sets the origin for the transformations to the top left corner of the element */
+  transform: scale(0.8);
+  transform-origin: 0 0;
 }
