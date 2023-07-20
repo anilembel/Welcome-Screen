@@ -17,6 +17,7 @@ async function loadDemo() {
     pass;
   }
   console.log(currentDemoContent.attributes.type);
+  const selectedLanguageText = selectedLanguage || "EN"; // Default to 'EN' if selectedLanguage is empty
   return `
 
     
@@ -33,10 +34,10 @@ async function loadDemo() {
         </button> 
 
         <button class="demo-languages-button" onclick="navigate(\'languages\')">
+          <i class="demo-button-text" style="font-style: normal;"> ${selectedLanguageText}&nbsp;&nbsp;</i>
           <i class="ph-light ph-globe" style="font-size: 24px"></i>
-          <i class="demo-button-text">&nbsp;&nbsp; EN</i>
         </button> 
-
+        
 
         <button class="demo-learnmore-button" class="button-learnMore" onclick="navigate(\'learnMore\')">
           <i class="ph ph-question" style="font-size: 24px"></i>
