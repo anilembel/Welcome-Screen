@@ -110,19 +110,20 @@ body {
   display: inline-block;
   align-items: flex-start;
   margin-right: 360px;
-  width: 680px;
+  width: 780px;
 }
 
 .home-instructions h1 {
-  margin-bottom: px;
+  width: 1080px;
+  display: inline-block;
   font-family: RhetorikSerif;
-  font-size: 100px;
+  font-size: 72px;
   font-weight: 400;
   line-height: 120px;
   letter-spacing: 0em;
   text-align: left;
   color: #2250c6;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   margin-top: 0px;
 }
 
