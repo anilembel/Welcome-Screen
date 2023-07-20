@@ -20,6 +20,9 @@ async function loadHome() {
     )
     .join("");
 
+  // Get the selected language from the global variable
+  const selectedLanguageText = selectedLanguage || "EN"; // Default to 'EN' if selectedLanguage is empty
+
   return `
   
   <head>
@@ -28,8 +31,8 @@ async function loadHome() {
 
   <body>
     <div class="page-header">
-      <button class="page-header-languagesbutton" onclick="navigate(\'languages\')">
-        <i class="demo-button-text" style="font-style: normal;"> EN&nbsp;&nbsp;</i>
+      <button class="page-header-languagesbutton" onclick="navigate('languages')">
+        <i class="demo-button-text" style="font-style: normal;"> ${selectedLanguageText}&nbsp;&nbsp;</i>
         <i class="ph-light ph-globe" style="font-size: 24px"></i>
       </button>
     </div>
