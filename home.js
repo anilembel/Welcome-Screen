@@ -16,7 +16,7 @@ async function loadHome() {
   const partnerLogoImageElements = partnerLogoUrlList
     .map(
       (url) =>
-        `<div class="carouselItem"><img src="${url}" height=100px alt="SDG Image"></div>`
+        `<div class="carouselItem"><img src="${url}" height=70px alt="SDG Image"></div>`
     )
     .join("");
 
