@@ -5,7 +5,7 @@ async function loadDemo() {
     demoContainer = `<iframe id="inlineFrameExample" class="zoom-out" 
         title="Inline Frame Example"
         width="1880"
-        height="860"
+        height="800"
         src="${currentDemoContent.attributes.appURL}">
         </iframe>`;
   } else if (currentDemoContent.attributes.type == "video") {
