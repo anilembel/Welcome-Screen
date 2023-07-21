@@ -313,6 +313,7 @@ body {
   left: 38.73681640625px;
   align-items: center;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .page-header-demo i {
@@ -339,26 +340,24 @@ body {
 }
 
 .demo-previous-button {
-  margin-left: 40px;
-  margin-right: 1120px;
+  margin-left: 20px;
+  margin-right: 1180px;
 }
 
 .demoContainer {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
-  top: 100px;
-  left: 50px;
+  top: 80px;
+  left: 10px;
   bottom: 0;
   right: 0;
-  width: 95%;
-  height: 80%;
+  width: 98%;
+  height: 88%;
   overflow-x: hidden;
 }
 
