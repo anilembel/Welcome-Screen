@@ -352,12 +352,12 @@ body {
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
-  top: 80px;
-  left: 10px;
+  top: 70px;
+  left: 0x;
   bottom: 0;
-  right: 0;
-  width: 98%;
-  height: 88%;
+  right: 10px;
+  width: 99%;
+  height: 92%;
   overflow-x: hidden;
 }
 
